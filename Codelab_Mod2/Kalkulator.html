@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan</title>
+    <link rel="stylesheet" href="Kalkulator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Penjumlahan</h1>
+        <div class="form-group">
+            <label for="bil1">Bilangan pertama</label>
+            <input type="number" id="bil1" placeholder="Masukkan bilangan pertama">
+        </div>
+        <div class="form-group">
+            <label for="bil2">Bilangan kedua</label>
+            <input type="number" id="bil2" placeholder="Masukkan bilangan kedua">
+        </div>
+        <div class="button-group">
+            <button type="button" onclick="hitung()">Jumlahkan</button>
+            <button type="button" onclick="reset()">Reset</button>
+        </div>
+        <h3>Hasil: <span id="hasil">0</span></h3>
+    </div>
+
+    <script src="Kalkulator.Js"></script>
+</body>
+</html>
